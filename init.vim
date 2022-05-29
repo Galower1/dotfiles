@@ -14,7 +14,6 @@ inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap { {}<left>
 inoremap [ []<left>
-inoremap " ""<left>
 
 
 call plug#begin()
@@ -32,6 +31,7 @@ Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple c
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'prettier/vim-prettier', { 'do': 'npm install --frozen-lockfile --production' }
+Plug 'mattn/emmet-vim'
 
 set encoding=UTF-8
 
