@@ -18,8 +18,8 @@ inoremap ( ()<left>
 inoremap { {}<left>
 inoremap [ []<left>
 
-nnoremap <C-Tab> :bn<CR>
-nnoremap <C-S-Tab> :bp<CR>
+nnoremap <C-w> :bn<CR>
+nnoremap <C-S-w> :bp<CR>
 
 call plug#begin()
 
