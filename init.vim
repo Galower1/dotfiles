@@ -18,6 +18,9 @@ inoremap ( ()<left>
 inoremap { {}<left>
 inoremap [ []<left>
 
+nnoremap <C-Tab> :bn<CR>
+nnoremap <C-S-Tab> :bp<CR>
+
 call plug#begin()
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
