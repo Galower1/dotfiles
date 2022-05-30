@@ -9,15 +9,18 @@
 
 let mapleader = " "
 
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap { {}<left>
 inoremap [ []<left>
 
-
 call plug#begin()
 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'http://github.com/tpope/vim-surround' " Surrounding ysw)
 Plug 'https://github.com/preservim/nerdtree' " NerdTree
 Plug 'https://github.com/tpope/vim-commentary' " For Commenting gcc & gc
