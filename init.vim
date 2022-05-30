@@ -73,6 +73,10 @@ let g:user_emmet_settings= {
 \  },
 \}
 
+" Prettier config 
+
+nnoremap <C-p> :Prettier<CR>
+
 " NERDTree configuration
 
 nnoremap <C-f> :NERDTreeFocus<CR>
