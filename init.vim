@@ -81,3 +81,5 @@ let g:NERDTreeDirArrowCollapsible="~"
 
 " --- Just Some Notes ---
 "  " :PlugClean :PlugInstall :UpdateRemotePlugins
+
+source $HOME/.config/nvim/plug-config/coc.vim
