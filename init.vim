@@ -47,6 +47,8 @@ nmap <F8> :TagbarToggle<CR>
 
 :hi Normal guibg=NONE ctermbg=NONE
 
+let g:user_emmet_leader_key=','
+
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
 
