@@ -12,6 +12,8 @@ let mapleader = " "
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
 
+set clipboard+=unnamedplus
+
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
