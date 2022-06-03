@@ -50,6 +50,8 @@ nmap <F8> :TagbarToggle<CR>
 
 :hi Normal guibg=NONE ctermbg=NONE
 
+:colorscheme orange-moon
+
 " Emmet Configuration
 
 let g:user_emmet_leader_key=','
